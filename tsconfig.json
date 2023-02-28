@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "module": "CommonJS",
     "moduleResolution": "node",
     "noEmitOnError": true,
@@ -10,7 +12,12 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "target": "es2018",
-    "types": ["bun-types"]
+    "esModuleInterop": true,
+    "types": [
+      "bun-types"
+    ]
   },
-  "include": ["src/**/*.ts"]
+  "include": [
+    "src/**/*.ts"
+  ]
 }
